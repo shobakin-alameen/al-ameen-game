@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: greenyellow;
+    background-color: purple;
     font-family: Arial, sans-serif;
     transition: background-color 0.5s ease;
 }
@@ -28,15 +28,16 @@ body {
     cursor: pointer;
     border: 2px solid #000;
     background-color: #fff;
-    transition: background-color 0.3s ease;
+    box-shadow: -8px -8px 15px rgb(55, 55, 55, 0.7)
+    /* transition: background-color 0.3s ease; */
 }
 
 .cell.X {
-    background: linear-gradient(45deg, #FF7F7F, #FFB6C1); /* Gradient for player X */
+    background: linear-gradient(45deg, gold, blue); /* Gradient for player X */
 }
 
 .cell.O {
-    background: linear-gradient(45deg, #7FBFFF, #B6E1FF); /* Gradient for player O */
+    background: linear-gradient(45deg, blue, #B6E1FF); /* Gradient for player O */
 }
 
 #restart {
